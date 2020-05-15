@@ -24,10 +24,7 @@
     "rpc": "egg-rpc-generator"
   },
   "dependencies": {
-    "egg": "^2.6.1",
-    "egg-mock": "^3.25.1",
     "egg-scripts": "^2.6.0",
-    "egg-sofa-rpc": "^2.0.0",
     "sofa-node": "^1.0.1"
   },
   "devDependencies": {

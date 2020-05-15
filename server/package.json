@@ -11,7 +11,7 @@
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-init",
     "stop": "egg-scripts stop --title=egg-server-init",
-    "dev": "egg-bin dev",
+    "dev": "egg-bin dev --port 7002",
     "debug": "egg-bin debug",
     "test-local": "egg-bin test",
     "test": "npm run lint -- --fix && npm run test-local",

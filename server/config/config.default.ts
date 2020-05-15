@@ -15,10 +15,7 @@ export default (appInfo: EggAppInfo) => {
     sourceUrl: `https://github.com/eggjs/examples/tree/master/${appInfo.name}`,
   };
 
-  config.sofaRpc = {
-    registry: {
-      address: '127.0.0.1:2181', // configure your real zk address
-    },
+  config.rpc = {
     server: {
       namespace: 'com.alipay.sofa.rpc.protobuf',
     },

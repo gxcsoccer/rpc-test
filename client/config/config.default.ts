@@ -10,11 +10,9 @@ export default (appInfo: EggAppInfo) => {
   // add your egg config in here
   config.middleware = [];
 
-  exports.sofaRpc = {
-    registry: {
-      address: '127.0.0.1:2181', // zk 地址指向本地 2181 端口
-    },
+  config.rpc = {
     client: {
+      serverHost: '127.0.0.1:12200',
       responseTimeout: 3000
     }
   };
